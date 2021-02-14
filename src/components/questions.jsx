@@ -1,15 +1,6 @@
 import React from "react";
-import { AnswerObject } from "../App";
-//  Props {
-//   question: string;
-//   answers: string[];
-//   callback: (e: React.MouseEvent<HTMLButtonElement>) => void;
-//   userAnswer: AnswerObject | undefined;
-//   questionNumber: number;
-//   totalQuestions: number;
-// };
 
-function QuestionCard({
+function Question({
   question,
   answers,
   callback,
@@ -36,4 +27,4 @@ function QuestionCard({
   );
 };
 
-export default QuestionCard;
+export default Question;
