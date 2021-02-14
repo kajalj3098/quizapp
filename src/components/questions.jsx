@@ -17,7 +17,7 @@ function Question({
       <div>
         {answers.map(answer => (
           <div key={answer}>
-            <button disabled={!!userAnswer} onClick={callback} value={answer}>
+            <button disabled={!!userAnswer} onClick={callback} value={answer} style={{margin:'5px', borderRadius:'6px'}}>
               <span dangerouslySetInnerHTML={{ __html: answer }} />
             </button>
           </div>

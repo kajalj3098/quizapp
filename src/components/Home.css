@@ -17,15 +17,10 @@ body {
     font-size: 30px;
 }
 
-
-p {
-    color: #fff;
-}
-
 .score {
-    color: #fff;
     font-size: 2rem;
     margin: 0;
+    border: 1px solid black;
 }
 
 h1 {
@@ -42,8 +37,14 @@ h1 {
     text-align: center;
     margin: 20px;
 }
-.start{
+
+.start {
     width: 30%;
     height: 50px;
     font-size: 18px;
+}
+
+.next{
+    color: black;
+    background-color: cadetblue;
 }
